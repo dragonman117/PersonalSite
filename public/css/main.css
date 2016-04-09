@@ -1,0 +1,186 @@
+/* basic colors*/
+.dark_blue{
+    background-color: #01579b;
+    color: whitesmoke;
+}
+.dark_blue a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.bg-white{
+    background-color: white;
+}
+.bg-lgrey{
+    background-color: #f5f5f5;
+}
+.font-lblue{
+    color: #0097a7;
+}
+.font-lgreen{
+    color: #558b2f;
+}
+.font-loragne{
+    color: #ff3d00;
+}
+.font-lpink{
+    color: #e91e63;
+}
+.text-small{
+    font-size: .8em;
+}
+.copyright{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*basic styling*/
+.no-pad{
+    padding: 0px;
+    margin: 0px;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+.overflow-scroll{
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 100%;
+    height: 100%;
+}
+.underline{
+    border-bottom: 1px solid #c2c2c2;
+}
+
+/* user sidebar */
+.user{
+    overflow: hidden;
+}
+.user .overflow-scroll{
+    max-height: 360px;
+}
+
+/*Name Bar*/
+.name h4{
+    font-size: 1.8em;
+    font-weight: 500;
+}
+.name .subheader{
+    padding-top: 5px;
+    padding-bottom: 15px;
+    margin-top: -15px;
+    font-size: .8em;
+    font-style: italic;
+}
+
+/* About */
+.about{
+    border: .5px solid #c2c2c2;
+}
+
+/*Nav overrides*/
+.navbar, .navbar.navbar-default{
+    background-color: #0277bd;
+    margin-bottom:0px;
+}
+.navbar-my-fixed{
+    z-index: 100;
+}
+
+/* Main Body */
+.body-container{
+    overflow: hidden;
+}
+.main-body{
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-image: url("../img/slate.jpg");
+}
+
+/* Mission Statement */
+.mission-statement{
+    margin-top: -50px;
+    background-color: transparent;
+    min-height: 250px;
+}
+.statement{
+    position: relative;
+    top: 55%;
+    transform: translateY(-50%);
+    color: whitesmoke;
+}
+.statement .intro{
+    font-weight: 100;
+    font-size: 1.6em;
+    padding: 10px;
+}
+.statement .name{
+    font-weight: 100;
+    font-size: 3em;
+    padding: 5px;
+}
+.statement .phrase{
+    font-size: 1.2em;
+    padding: 5px;
+}
+/*Segment*/
+.drop-shadow{
+    -webkit-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.75);
+}
+.segment{
+    padding-bottom: 50px;
+    border-top: 1px solid #acacac;
+}
+.segment .seg-icon{
+    margin-top: -30px;
+    width: 55px;
+    height: 55px;
+}
+.segment .seg-icon h2{
+    margin-top: 12px;
+    margin-left: 2px;
+}
+.segment .myTable{
+    border: 0px;
+}
+.segment .myTable tr{
+    border: 0px;
+}
+.myTable.table>tbody>tr>td, .myTable.table>tbody>tr>th, .myTable.table>tfoot>tr>td, .myTable.table>tfoot>tr>th, .myTable.table>thead>tr>td, .myTable.table>thead>tr>th{
+    border: 0px;
+}
+.myTable td{
+    text-align: center;
+}
+.segment .tile{
+    padding: 15px;
+}
+.mycard .well.no-pad{
+    padding: 0px !important;
+}
+
+/* Sm + css */
+@media (min-width: 768px) {
+    html,body{
+        min-height: 100%;
+        height: 100%;
+        max-height: 100%;
+    }
+    .full-height{
+        min-height: 100%;
+        height: 100%;
+        max-height: 100%;
+    }
+    .main-body{
+        padding-top: 50px;
+        margin-top: -50px;
+    }
+}
+/*Phones only*/
+@media (max-width: 767px){
+    .statement{
+        padding-top: 480px;
+    }
+}

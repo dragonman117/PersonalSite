@@ -1,0 +1,19 @@
+{
+  "name": "Personal-Site",
+  "authors": [
+    "TJ Ferrell <tj.ferrell@gmail.com>"
+  ],
+  "description": "a simple personal site",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
